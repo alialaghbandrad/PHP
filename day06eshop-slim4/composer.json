@@ -1,0 +1,13 @@
+{
+    "name": "ipd20/someproject",
+    "require": {
+        "slim/slim": "^4.5",
+        "twig/twig": "^3.0",
+        "sergeytsalkov/meekrodb": "^2.3",
+        "slim/twig-view": "^3.1",
+        "monolog/monolog": "^2.0",
+        "slim/psr7": "^1.0",
+        "phpunit/phpunit": "^8.5",
+        "sendinblue/api-v3-sdk": "^6.2"
+    }
+}

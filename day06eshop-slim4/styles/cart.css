@@ -1,0 +1,64 @@
+h1 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+h2 {
+    margin: 5px 0;
+}
+p {
+    margin: 5px 0;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+li a.articleLink{
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+.cartImg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.cartName{
+    border-bottom: 1px solid black;
+    font-size: 1.2em;
+}
+
+input[name=quantity]{
+    margin: 0 10px;
+    width: 25px;
+    height: 18px;
+    text-align: right;
+}
+.removeDiv {
+    text-align: right;
+}
+
+.pageDiv a{
+    text-decoration: underline;
+    padding: 0 5px;
+}
+.pageDiv span{
+    font-size: 2em;
+    padding: 0 5px;
+}
+.pageNav {
+    font-size: 0.8em;
+}
