@@ -1,0 +1,21 @@
+{% extends "master.html.twig" %}
+
+{% block title %}Add person{% endblock %}
+
+{% block content %}
+
+{% if errorList %}
+    <ul>
+    {% for error in errorList %}
+        <li class="errorMessage">{{error}}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+<form method="POST">
+    Name: <input type="text" name="name" value="{{v.name}}"><br>
+    Age: <input type="number" name="age" value="{{v.age}}"><br>
+    <input type="submit" value="Add person">
+</form>
+
+{% endblock content %}
